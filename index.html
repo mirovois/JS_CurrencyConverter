@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <section class = "main">
+        <h1 class = "header">What are you about to convert?</h1>
+         <div class = "converter-wrapper">
+            <div class="convert convert-from">
+                <h2 class = "label">From:</h2> 
+                <input class = "value-To-Convert" type="number">
+                <select defaulValue = "select" class = "currency currency-To-Convert">
+                    <!-- <option class = "dis-value select-currency" disabled value="select" selected>-select currency-</option> -->
+                    <!-- <option class = "select-currency">-select currency-</option> -->
+                </select>
+            </div>
+            <div class = "btn-field">
+
+                <button class = "btn-convert">CONVERT</button>
+            </div>
+            <div class="convert convert-to">
+                <h2 class = "label">To:</h2> 
+                <input class = "converted" type="number">
+                <select defaulValue = "select" class = "currency currency-converted" >
+                    <!-- <option class = "select-currency" disabled value="select" selected>-select currency-</option>
+                    <option class = "select-currency">-select currency-</option> -->
+                </select>
+            </div>
+        </div>
+     </section>
+    <script src = "app.js"></script>
+</body>
+</html>
